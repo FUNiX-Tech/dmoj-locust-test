@@ -3,13 +3,13 @@ from locust import HttpUser, between
 
 # config
 users_number = 100
-problem_path = "/beta/problem/clonehungry1"
-username_prefix = "v1userfortest"
-password = "funix.edu.vn"
+problem_path = "/beta/problem/clonehungry1" 
+username_prefix = "v1userfortest" # don't change this unless you know what you are doing.
+password = "funix.edu.vn"  # don't change this unless you know what you are doing.
 
 i = 1
 class Main(HttpUser): 
-    wait_time = between(1, 3) # modify this one if you want to
+    wait_time = between(1, 3) # modify this one if you want to.
     username = "NONE"
     session_cookie = {}
     csrftoken = "NONE"
