@@ -9,7 +9,7 @@
   1. Git clone this repository.
   2. In the main directory, `python3 -m venv venv`.
   3. `. venv/bin/activate`
-  4. `make requirements.txt`
+  4. `pip3 install -r requirements.txt`
 
 ---
 
